@@ -282,3 +282,148 @@ body {
     border: 1px solid #e8e8e8;
     margin-top: 5px;
 }
+
+.copyright {
+    width: 100%;
+    height: 200px;
+    background-color: #e8e8e8;
+    margin-top: 10px;
+    padding-top: 20px;
+    clear: both;
+}
+
+.copyright_content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.copyright_content li {
+    width: 200px;
+    list-style-type: none;
+    float: left;
+    background: url(../image/line.png) no-repeat right center;
+    line-height: 30px;
+    text-align: center;
+    font-family: 微软雅黑;
+}
+
+.copyright_content a {
+    text-decoration: none;
+    color: #999;
+    font-size: 18px;;
+}
+
+.copyright_content li ul li a {
+    font-size: 14px;
+}
+
+.list_main {
+    height: 350px;
+    min-height: 350px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.news_type {
+    width: 220px;
+    height: 350px;
+    border: 1px solid #e8e8e8;
+    float: left;
+}
+
+.list_box {
+    width: 770px;
+    min-height: 350px;
+    float: right;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+}
+
+.news_type h2 {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #666;
+    font-family: 微软雅黑;
+    background: url(../image/titile_bg.gif) repeat-x;
+    padding-left: 20px;
+}
+
+.news_type_content {
+    height: 365px;
+    background: url(../image/content_bg.gif) repeat-x;
+}
+
+.news_type_content li {
+    list-style-type: none;
+    height: 30px;
+    line-height: 30px;
+}
+
+.news_type_content li a {
+    text-decoration: none;
+    color: #666;
+    background: url(../image/li_bg.gif) no-repeat left center;
+    padding-left: 15px;
+    display: block;
+
+}
+
+.news_type_content li a:hover {
+    color: #009cdf;
+    background: url(../image/li_bg2.gif) no-repeat left center;
+    background-color: #f2f2f2;
+}
+
+.list_box h2 {
+    height: 35px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #666;
+    background: url(../image/type_bg.png) repeat-x;
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+.page {
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.page a {
+    text-decoration: none;
+    border: 1px solid #e8e8e8;
+    margin: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.page a:link, .page a:visited {
+    color: #000;
+}
+
+.page a:hover, .page a:active {
+    color: #fff;
+    background-color: #cc1b1b;
+}
+
+.list_box h1 {
+    font-family: 微软雅黑;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.list_box_newsInfo {
+    color: #666;
+    text-align: center;
+    border-bottom: 1px dotted #666;
+}
+
+.list_box_newsContent {
+    font-size: 14px;
+    padding: 20px;
+    line-height: 25px;
+    text-indent: 2em;
+}

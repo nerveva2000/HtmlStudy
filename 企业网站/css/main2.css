@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.warp {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 70px;
+}
+
+.header_left {
+    width: 200px;
+    float: left;
+
+}
+
+.header_right {
+    width: 800px;
+    float: left;
+}
+
+.header_right li {
+    float: left;
+    line-height: 70px;
+    text-align: center;
+    list-style-type: none;
+    float: left;
+}
+
+.header_right a {
+    text-decoration: none;
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+.header_right a:link, .header_right a:visited {
+    color: #000;
+}
+
+.header_right a:hover, .header_right a:active {
+    color: #fff;
+    background-color: #f00;
+}
+
+.content {
+
+}
+
+.footer {
+    font-size: 14px;
+    text-align: center;
+
+}
